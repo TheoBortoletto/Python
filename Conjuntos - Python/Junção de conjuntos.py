@@ -39,7 +39,7 @@ print(nameCarSet, "\n")
 
 ### Usando 'update()', método que insere itens de um conjunto em outro ###
 
-print("\t Usando o método 'update()': \n") # 'union()' e 'update()' excluirão itens duplicados
+print("\t Usando o método #1 'update()': \n") # 'union()' e 'update()' excluirão itens duplicados
 
 numSet.update(num2Set)
 print(numSet, "\n")
