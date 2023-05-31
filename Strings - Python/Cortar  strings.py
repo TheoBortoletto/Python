@@ -9,3 +9,8 @@ print(" - Imprimir o início de uma string até onde for desejado: \n")
 
 txt2 = "Homem-Aranha"
 print(txt2[:5], "\n")
+
+print(" - Indexação negativa: \n")
+
+txt3 = "Helllo World!!!"
+print(txt3[-9:-2])
