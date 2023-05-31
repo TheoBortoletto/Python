@@ -1,3 +1,6 @@
+
+
+
 print(" - Variáveis globais: \n")
 
 # Variáveis ​​criadas fora de uma função são conhecidas como variáveis ​​globais.
@@ -24,6 +27,20 @@ printIdade()
 
 
 print(" - Criando uma variável dentro de uma função commo mesmo nome da varíavel global (que esta fora da função): \n")
+
+company = "Valdac"
+
+def printCompany():
+    company = "Apple"
+    print("Eu trabalho na", company)
+    print("\n")
+
+printCompany()
+
+print("Eu trabalho na", company, "\n")
+
+
+
 
 
 
