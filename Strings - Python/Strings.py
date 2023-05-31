@@ -35,4 +35,23 @@ print("momento" in txt, "\n")
 
 print(" - Usando 'if' para imprimir strings: \n")
 
+txt2 = "Homem-Aranha"
+
+if "Aranha" in txt2:
+    print("Há 'Aranha' na string \n")
+
+### 
+
+print(" - Verificar se em um palavra, não há uma string: \n")
+
+txt3 = "The best things in life are free!"
+print("expensive" not in txt, "\n") # Retornará 'True' se for verdadeiro ou 'False" se não
+
+### 
+
+print(" - Usando 'if' para imprimir apenas se uma string não estiver presente: \n")
+
+txt4 = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present. \n")
 
