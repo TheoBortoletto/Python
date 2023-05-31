@@ -29,5 +29,10 @@ print(" - Verificar se uma frase ou caractere está presente em uma string: \n")
 
 txt = "Vivendo o meu melhor momento."
 
-print("momento" in txt)
+print("momento" in txt, "\n")
+
+###
+
+print(" - Usando 'if' para imprimir strings: \n")
+
 
