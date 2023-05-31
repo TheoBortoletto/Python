@@ -5,7 +5,7 @@ print(" - Variáveis globais: \n")
 
 # Variáveis ​​criadas fora de uma função são conhecidas como variáveis ​​globais.
 
-#As variáveis ​​globais podem ser usadas por todos, tanto dentro quanto fora das funções.
+# As variáveis ​​globais podem ser usadas por todos, tanto dentro quanto fora das funções.
 
 print(" - Criando uma variável fora de uma função e usando-a dentro desta função: \n ")
 
@@ -39,8 +39,30 @@ printCompany()
 
 print("Eu trabalho na", company, "\n")
 
+###
+
+print(" - A palara chave 'global': \n")
+
+# Se usarmos a palavra chave 'gllobal', a variável pertennce ao escopo global
+
+def globalFunc():
+    global x
+    x = "fantastic"
+
+globalFunc()
+
+print("Python is " + x + "\n")
+
+print("Alterando o valor de uma variável global dentro de uma função: \n")
+
+college = "ESPM"
+
+def printCollege():
+    global college
+    college = "Senac"
+
+printCollege()
 
 
-
-
+print("Eu estudo no " + college + '\n')
 
