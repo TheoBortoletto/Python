@@ -14,3 +14,5 @@ print(" - Indexação negativa: \n")
 
 txt3 = "Helllo World!!!"
 print(txt3[-9:-2])
+
+# ff
