@@ -28,5 +28,22 @@ print(bool(txt2), "\n")
 
 ###
 
+print(" - A maioria dos valores são verdadeiros: \n")
+
+print(bool("abc"))
+print(bool(123))
+print(bool(["apple", "pear", "orange"]), "\n")
+
+### 
+
+print(" - Alguns valores são falsos: \n")
+
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}), "\n")
 
 
