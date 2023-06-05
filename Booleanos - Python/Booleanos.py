@@ -70,3 +70,12 @@ print(myFunction(), "\n")
 
 # Você pode executar o código com base na resposta booleana de uma função:
 
+print(" - Imprimir 'SIM!' se a função retornar True, caso contrário imprima 'NÃO!': \n")
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
