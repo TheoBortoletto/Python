@@ -46,4 +46,15 @@ print(bool(()))
 print(bool([]))
 print(bool({}), "\n")
 
+### 
+
+print(" - Objetos que retornam 0, também é avaliado como 'False': \n")
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj), "\n")
+
 
