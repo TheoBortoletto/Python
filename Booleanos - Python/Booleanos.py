@@ -76,9 +76,9 @@ def myFunction() :
   return True
 
 if myFunction():
-  print("YES!")
+  print("YES! \n")
 else:
-  print("NO!")
+  print("NO! \n")
 
 ### 
 
@@ -86,5 +86,5 @@ else:
 #  como a isinstance() função, que pode ser usada para determinar se um objeto
 #  é de um determinado tipo de dados:
 
-
+print(" - Usando a função 'isinstance()' pra determinar se um objeto é de um determinado tipo de dado: \n")
 
