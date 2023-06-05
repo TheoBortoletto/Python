@@ -57,4 +57,16 @@ class myclass():
 myobj = myclass()
 print(bool(myobj), "\n")
 
+### 
+
+print(" - Funções podem retornar um booleano: \n")
+
+def myFunction() :
+  return True
+
+print(myFunction(), "\n")
+
+### 
+
+# Você pode executar o código com base na resposta booleana de uma função:
 
