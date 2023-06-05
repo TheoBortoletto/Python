@@ -88,3 +88,5 @@ else:
 
 print(" - Usando a função 'isinstance()' pra determinar se um objeto é de um determinado tipo de dado: \n")
 
+x = 200
+print(isinstance(x, int), "\n")
