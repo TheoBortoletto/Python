@@ -79,3 +79,12 @@ if myFunction():
   print("YES!")
 else:
   print("NO!")
+
+### 
+
+# Python também tem muitas funções internas que retornam um valor booleano,
+#  como a isinstance() função, que pode ser usada para determinar se um objeto
+#  é de um determinado tipo de dados:
+
+
+
