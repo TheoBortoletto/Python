@@ -116,4 +116,21 @@ print(json.dumps(dict, indent=4), "\n")
 
 ###
 
-print(" - Usando o par")
+print(" - Usando o parâmetro 'sort_keys' para especificar se o resultado deve ser classificado ou não: \n")
+
+person = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# sort the result alphabetically by keys:
+print(json.dumps(person, indent=4, sort_keys=True), "\n")
+
