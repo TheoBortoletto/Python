@@ -90,3 +90,11 @@ y = json.dumps(x)
 # O resultado é uma string JSON:
 print(y)
 
+###
+
+#  exemplo acima imprime uma string JSON, mas não é muito fácil de ler, sem recuos e quebras de linha.
+
+# O json.dumps()método possui parâmetros para facilitar a leitura do resultado:
+
+print(" - Usando ")
+
