@@ -18,3 +18,7 @@ y = json.loads(x)
 # O resultado da conversão será um dicionário Python:
 
 print(y["idade"], "\n") 
+
+### 
+
+print("")
