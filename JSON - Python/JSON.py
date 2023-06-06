@@ -84,7 +84,7 @@ x = {
   ]
 }
 
-# onvertendo para JSON:
+# Convertendo para JSON:
 y = json.dumps(x)
 
 # O resultado é uma string JSON:
