@@ -64,3 +64,29 @@ print(json.dumps(31.76))
 print(json.dumps(True))
 print(json.dumps(False))
 print(json.dumps(None))
+
+print("\n")
+
+### 
+
+print(" - COnvertendo um objeto Python contentdo todos os tipos de dados: \n")
+
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# onvertendo para JSON:
+y = json.dumps(x)
+
+# O resultado é uma string JSON:
+print(y)
+
