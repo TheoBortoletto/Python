@@ -23,3 +23,36 @@ print(y["idade"], "\n")
 
 print(" -  Convertendo Python pra JSON, usando o método 'json.dumps()': \n")
 
+dictionary = {
+    "nome": "Eduarda",
+    "idade": 21,
+    "cidade": "São Paulo"
+}
+
+# Convertendo de Pyton para JSON:
+
+convertJson = json.dumps(dictionary)
+
+# O resultato é uma string JSON
+
+print(convertJson, "\n")
+
+#### 
+
+# É possível converter obetos Python dos seguintes tipos em strings JSON: 
+
+### dict
+### list
+###tuple
+### string
+### int
+### float
+### True
+### False
+### None
+
+
+
+
+
+
