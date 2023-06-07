@@ -21,7 +21,7 @@ print("b = ", b, "\n")
 
 if b < a:
   print(b, "é menor que", a, "\n")
-elif a == b:  # elif é a maniera do Python dizer "se as condições anteriores não forem verdadeiras,                     tente esta condição".
+elif a == b:  # elif é a maniera do Python dizer "se as condições anteriores não forem verdadeiras, tente esta condição".
   print(b, "é igual a", a, "\n")
 
 ### If e Esle ###
