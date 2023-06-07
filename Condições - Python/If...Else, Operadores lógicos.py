@@ -1,56 +1,106 @@
-### Criando dicionários 'aninhados' ###
+### Condições 'if' e 'else' ###
 
-coworkersDict = {
-  "alan": {
-    "idade": 21,
-    "setor": "Moda",
-  },
-  "beatriz": {
-    "idade": 21,
-    "setor": "RH"
-  }, 
-  "lívia" : {
-    "idade": 20,
-    "setor": "Financias"
-  },
-  "larissa": {
-    "idade": 21, 
-  }
-}
+# Python suporta as condições lógicas usuais da matemática:
 
-print("\t Dicionário 'aninhado': \n")
+# Igual a: a == b
+# Diferentes: a != b
+# Menor que: a < b
+# Menor ou igual a: a <= b
+# Maior que: a > b
+# Maior ou igual a: a >= b
 
-print(coworkersDict, "\n")
+### If e Elif ###
 
-### Criar dicionários e adiciona-los em um novo dicionário ###
+a = 15
+b = 10
 
-print("\t Dicionários dentro de um dicionário: \n")
+print("\t -- Condição 'if' e 'elif': -- \n")
+print("a = ", a)
+print("b = ", b, "\n")
 
-car1 = {
-  "modelo": "Mustang",
-  "ano": 1970
-}
 
-car2 = {
-  "modelo": "911",
-  "ano": 2020 
-}
+if b < a:
+  print(b, "é menor que", a, "\n")
+elif a == b:  # elif é a maniera do Python dizer "se as condições anteriores não forem verdadeiras,                     tente esta condição".
+  print(b, "é igual a", a, "\n")
 
-car3 = {
-  "modelo": "Toro",
-  "ano": 2019 
-}
+### If e Esle ###
 
-carsDict = {  # Deixe os nomes iguais pra não dar erro
-  "car1": car1,
-  "car2": car2,
-  "car3": car3
-}
+num1 = 200
+num2 = 33
 
-print(carsDict, "\n")
+print("\t -- Condição 'if' e 'else': -- \n")
 
-### Acessar itens em dicionários aninhados ###
+print("num1 = ", num1)
+print("num2 = ", num2, "\n")
 
-print("\t Acessar itens em dicionários aninhados: \n")
+if num1 > num2:
+  print(num1, "é maior que", num2)
+elif num1 == num2:
+  print(num1, "é igual a", num2)
+else:
+  print(num1, "é menor que", num2 )
 
-print(carsDict["car1"]["modelo"])
+print("\n")
+
+### If em uma linha ###
+
+num3 = 23
+num4 = 24
+
+print("\t -- If em uma linha só: --- \n")
+
+if num3 < num4: print(num3, "é menor que", num3, "\n")
+
+### If e else em uma linha ###
+
+num5 = 233
+num6 = 242
+
+print("\t -- If e else em uma linha só: --- \n")
+
+print(num5, "é maior que", num6, "\n") if num5 > num6 else print(num5, "é menor que", num6, "\n")
+
+### Operadores Lógicos ###
+### Operador Lógico 'AND' ###
+
+print("\t -- Operador Lógico 'AND': -- \n")
+
+num7 = 200
+num8 = 33
+num9 = 500
+
+if num7 > num8 and num9 > num7:
+  print("Ambas as condições são verdadeiras. \n")
+
+### Operador Lógico 'OR' ###
+
+print("\t -- Operador Lógico 'OR': -- \n")
+
+if num7 > num8 or num7 > num9:
+  print("Pelo menos uma das condições é verdadeira. \n")
+
+### Operador Lógico 'NOT' ###
+
+print("\t -- Operador Lógico 'NOT': -- \n")
+
+i = 20
+j = 21
+
+if not i > j:
+  print(i, "não é maior que", j, "\n")
+
+### If dentro de if ###
+
+print("\t -- If dentro de if: -- \n")
+
+x = 41
+
+if x > 10:
+  print("Above ten,")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
+
+# Coloque 'pass' dentro de ifs sem declaração pra evitar erros.
